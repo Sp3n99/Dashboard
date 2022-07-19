@@ -33,8 +33,8 @@ const Login = () => {
   return (
     <div className="login">
       <form onSubmit={handleLogin}>
-        <input type="email" placeholder="email" onChange={e=>setEmail(e.target.value)}/>
-        <input type="password" placeholder="password" onChange={e=>setPassword(e.target.value)}/>
+        <input type="email" placeholder="DUMMY EMAIL:  admin@test.com" onChange={e=>setEmail(e.target.value)}/>
+        <input type="password" placeholder="DUMMY PASSWORD: password" onChange={e=>setPassword(e.target.value)}/>
         <button type="submit">Login</button>
         {error && <span>Wrong email or password!</span>}
       </form>
